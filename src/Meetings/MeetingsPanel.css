@@ -1,0 +1,128 @@
+.meetings-container {
+max-width: 800px;
+margin: 0 auto;
+padding: 20px;
+background-color: #f9f9f9;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.meetings-container h1 {
+text-align: center;
+margin-bottom: 20px;
+font-size: 24px;
+color: #333;
+}
+
+
+.calendar {
+margin-bottom: 30px;
+}
+
+.calendar div {
+margin-bottom: 10px;
+padding: 10px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.calendar div p {
+margin: 0;
+font-size: 16px;
+color: #333;
+}
+
+.calendar div a {
+display: inline-block;
+margin-top: 5px;
+color: #007bff;
+text-decoration: none;
+}
+
+.calendar div a:hover {
+text-decoration: underline;
+}
+
+
+.create-meeting-panel {
+padding: 20px;
+background-color: #fff;
+border: 1px solid #ddd;
+border-radius: 5px;
+box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.create-meeting-panel h2 {
+margin-bottom: 20px;
+font-size: 20px;
+color: #333;
+}
+
+/* Form styling */
+#createMeetingForm {
+display: flex;
+flex-direction: column;
+}
+
+#createMeetingForm label {
+margin-bottom: 5px;
+font-size: 14px;
+color: #333;
+}
+
+#createMeetingForm input[type="date"],
+#createMeetingForm input[type="time"] {
+margin-bottom: 15px;
+padding: 10px;
+font-size: 14px;
+border: 1px solid #ddd;
+border-radius: 5px;
+}
+
+#createMeetingForm input[type="checkbox"] {
+margin-right: 10px;
+}
+
+#createMeetingForm div {
+display: flex;
+align-items: center;
+margin-bottom: 10px;
+}
+
+#createMeetingForm button {
+padding: 10px 15px;
+font-size: 16px;
+color: #fff;
+background-color: #007bff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+#createMeetingForm button:hover {
+background-color: #0056b3;
+}
+
+
+@media (max-width: 600px) {
+.meetings-container {
+    padding: 15px;
+}
+
+.create-meeting-panel {
+    padding: 15px;
+}
+
+#createMeetingForm input[type="date"],
+#createMeetingForm input[type="time"] {
+    padding: 8px;
+}
+
+#createMeetingForm button {
+    padding: 8px 10px;
+    font-size: 14px;
+}
+}

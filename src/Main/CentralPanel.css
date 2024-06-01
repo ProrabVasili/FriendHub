@@ -1,0 +1,34 @@
+.centrenav {
+  width: 100%;
+  max-width: 800px;
+  margin-bottom: 20px;
+  background-color: #e09191;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.slider-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+}
+
+.slider img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.slider img:hover {
+  transform: scale(1.1);
+}

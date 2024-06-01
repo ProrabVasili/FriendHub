@@ -1,0 +1,50 @@
+.message_panel {
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .message_input {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .message_input input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .message_input button {
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+  
+  .message_input button:hover {
+    background-color: #0056b3;
+  }
+
+
+
+.chat-window-panel {
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  overflow-y: auto; /* Allow scrolling if the content overflows */
+}
+
+.no-friend-selected {
+  text-align: center;
+  color: #888;
+  font-size: 18px;
+  padding: 20px;
+}
+
+  

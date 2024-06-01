@@ -1,0 +1,31 @@
+.message-container {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.message-details {
+    flex-grow: 1;
+}
+
+.message-details .name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.message-details .message {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.message-details .time {
+    color: #888;
+    font-size: 0.85em;
+}

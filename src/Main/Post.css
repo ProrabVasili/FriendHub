@@ -1,0 +1,48 @@
+.post {
+  width: 100%;
+  background-color: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.post img {
+  width: 50%;
+  height: 50%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.actions {
+  margin-top: 10px;
+}
+
+.like-btn, .dislike-btn {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.like-btn {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.like-btn:hover {
+  background-color: #27ae60;
+}
+
+.dislike-btn {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.dislike-btn:hover {
+  background-color: #c0392b;
+}

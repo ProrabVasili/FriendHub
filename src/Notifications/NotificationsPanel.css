@@ -1,0 +1,35 @@
+.notifications-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.notifications-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.notifications-container .scroll-container { 
+    height: calc(100% - 40px); 
+    overflow-y: scroll; 
+} 
+
+.notifications-container .scroll-container::-webkit-scrollbar { 
+    width: 12px; 
+} 
+
+.notifications-container .scroll-container::-webkit-scrollbar-track { 
+    background: #f1f1f1; 
+} 
+
+.notifications-container .scroll-container::-webkit-scrollbar-thumb { 
+    background: #888; 
+} 
+
+.notifications-container .scroll-container::-webkit-scrollbar-thumb:hover { 
+    background: #555; 
+} 
+
+.notifications-container .scroll-container::-webkit-scrollbar-button { 
+    display: none; 
+}
